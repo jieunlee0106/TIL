@@ -53,6 +53,10 @@ public class Store {
     @CreationTimestamp
     private Timestamp createdAt;
 
+    // 연결
+
+    @OneToOne(mappedBy = "store")
+    private Live live
 
     @OneToOne
     @JoinColumn(name="member_id")

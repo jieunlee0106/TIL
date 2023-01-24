@@ -62,6 +62,12 @@ public class Store {
     @JoinColumn(name="member_id")
     private Member member;
 
+    @OneToMany(mappedBy = "store")
+    private List<Item> item = new ArrayList<>();
+
+    @OneToMany(mappedBy = "store")
+    private List<StoreLike> storeLike = new ArrayList<>();
+
     //빌더
     @Builder
     public Store(Long store_id, String store_name, String store_description, String store_img, String store_street_addr, String store_detail_addr, String store_zipcode,Integer store_delivery_cost, Integer store_delivery_free, Timestamp createdAt ) {

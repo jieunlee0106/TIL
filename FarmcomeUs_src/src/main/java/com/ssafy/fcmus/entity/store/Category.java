@@ -19,5 +19,8 @@ public class Category {
     @Column(length = 15, nullable = false)
     private String category_name;
 
+    @OneToMany(mappedBy = "category")
+    private List<Item> item = new ArrayList<>();
+
 }
 

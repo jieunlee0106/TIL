@@ -51,6 +51,12 @@ public class Item {
     @OneToOne(mappedBy = "item")
     private Live live
 
+    @OneToMany(mappedBy = "item")
+    private List<CartList> cartList = new ArrayList<>();
+
+    @OneToMany(mappedBy = "item")
+    private List<OrderItem> orderItem = new ArrayList<>();
+
     //빌더
     @Builder
     public Item(Long item_id, String item_name, String item_description, String item_img, Integer item_discount, Integer item_price, Integer item_stock ) {

@@ -25,7 +25,7 @@ public class OrderInfo {
     @CreationTimestamp
     private Timestamp order_created_at;
 
-    //외래 키
+    //연결
     @ManyToOne(cascade = CascadeType.MERGE, targetEntity = Member.class)
     @JoinColumn(name = "member_id", updatable = false)
     private Member member;
@@ -33,6 +33,9 @@ public class OrderInfo {
     @OneToOne
     @JoinColumn(name="delivery_id")
     private DeliveryInfo delivery;
+
+    @OneToMany(mappedBy = "order")
+    private List<OrderItem> prderItem = new ArrayList<>();
 
     @Builder
     public OrderInfo(Timestamp order_created_at) {

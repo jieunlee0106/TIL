@@ -36,7 +36,7 @@ public class DeliveryInfo {
     private Member member;
 
     @OneToOne(mappedBy = "delivery")
-    private DeliveryInfo delivery
+    private DeliveryInfo delivery;
 
     //빌더
     @Builder

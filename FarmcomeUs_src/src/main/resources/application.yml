@@ -5,7 +5,7 @@ spring:
 #    username: ssafy
 #    password: ssafy
 
-    # 지은 - 임시 사용
+    # 지은 - 임시 사용zz
     url: jdbc:mysql://localhost:3306/fcmus?serverTimezone=Asia/Seoul
     username: root
     password: ssafyB10312345

@@ -8,4 +8,5 @@ if arr == ascending:
 elif arr == descending:
     print('descending')
 else:
-    print('mixed')   
+    print('mixed') 
+    print('d')

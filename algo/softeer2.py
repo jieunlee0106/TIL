@@ -4,4 +4,3 @@
 x = 10000000**(1/2)
 print(x)
 print(x+2)
-print(x + x)

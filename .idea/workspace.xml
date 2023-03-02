@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd11551-3879-4b18-ac99-b422e60da659" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo/softeer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/softeer2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/controller/order/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/controller/order/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/controller/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/controller/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/dto/order/CartDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/dto/order/CartDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/dto/order/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/dto/order/OrderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/order/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/order/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/service/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/service/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,16 +29,14 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LHEIbrCwrz6MYSuuvMhVLikwqN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,5 +52,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

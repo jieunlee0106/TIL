@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="6dd11551-3879-4b18-ac99-b422e60da659" name="Changes" comment="" />
+=======
     <list default="true" id="6dd11551-3879-4b18-ac99-b422e60da659" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/algo/17471게리멘더링.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,6 +20,7 @@
       <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/entity/order/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/service/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/service/order/OrderServiceImpl.java" afterDir="false" />
     </list>
+>>>>>>> 0121d399d0635a75d048418655ff1bcea8172441
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

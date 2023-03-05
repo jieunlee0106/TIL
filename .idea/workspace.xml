@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd11551-3879-4b18-ac99-b422e60da659" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/algo/swea10760.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/17471게리멘더링.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/controller/order/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/로그인/로그인/S08P12B103/back/farmcu/src/main/java/com/ssafy/farmcu/api/controller/order/CartController.java" afterDir="false" />

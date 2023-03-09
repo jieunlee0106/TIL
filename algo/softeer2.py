@@ -2,3 +2,4 @@
 N, B = map(int, input().split())
 arr = list(map(int, input().split()))
    # 6차 문제보다 쉬움
+# 오늘 너무 피곤

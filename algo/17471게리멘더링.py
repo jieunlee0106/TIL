@@ -19,6 +19,7 @@ def is_connected(nodes):
     check[nodes[0]] = True
 
     while q:
+
         node = q.popleft()
 
         for i in range(len(arr[node])):

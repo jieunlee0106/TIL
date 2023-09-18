@@ -1,0 +1,26 @@
+﻿<Window x:Class="MaterialsManagementSystem.View.GroupManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaterialsManagementSystem.View"
+        mc:Ignorable="d"
+        Title="자재그룹 관리" Height="490" Width="500">
+    <Grid>
+        <TextBlock Text="자재 그룹 코드:" VerticalAlignment="Top" Margin="10,28,0,0"/>
+        <TextBox x:Name="MaterialCodeTextBox" Margin="120,24,152,386"/>
+
+        <TextBlock Text="자재 그룹 이름:" VerticalAlignment="Top" Margin="10,64,0,0"/>
+        <TextBox x:Name="MaterialNameTextBox" Margin="120,60,152,350"/>
+
+        <DataGrid Name="GroupGrid" AutoGenerateColumns="False" VerticalAlignment="Top" Height="186" Margin="10,100,10,0" SelectionChanged="GroupGrid_SelectionChanged" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Code ID" Binding="{Binding CodeId}" />
+                <DataGridTextColumn Header="Code Name" Binding="{Binding CodeName}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="자재 그룹 조회" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="10,290,0,0" Click="LoadGroups_Click" />
+        <Button Content="자재그룹 추가" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="372,29,0,0" Click="AddGroup_Click" />
+        <Button Content="자재그룹 삭제" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Margin="127,290,0,0" Click="DeleteGroup_Click" />
+    </Grid>
+</Window>
